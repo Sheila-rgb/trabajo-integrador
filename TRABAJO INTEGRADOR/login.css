@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(img/login1.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: 'Anton', sans-serif;
+    height: 100vh;
+}
+.container{
+    width: 320px;
+    height: 420px;
+    background: #000000;
+    color: #fff;
+    opacity: 90%;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    }
+    .content{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .login_inputs{
+        width: 75%;
+        max-width: 600px;
+        font-family: 'Anton', sans-serif;
+        font-size: 20px;
+        letter-spacing: 1.5px;
+
+    }
+    .login_inputs p{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .login_inputs p label{
+        padding-bottom: 10px;
+    }
+    
+.login_inputs p input{
+    height: 40px;
+    border: none;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.login_inputs p input::placeholder{
+    color: #302F2C;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.login_inputs p button{
+    width: 100%;
+    border: none;
+    height: 45px;
+    background: seagreen;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    font-family: 'Anton', sans-serif;
+    cursor: pointer;
+}
+.login_inputs p button:hover{
+    color: #8FFF05;
+}
+
+.container a{
+    text-decoration: none;
+    color: #eeeeee;
+    font-size: 13px;
+    line-height: 20px;
+    font-family:'Roboto', sans-serif;
+} 
+
+.container a:hover{
+    color: #8FFF05;
+}
